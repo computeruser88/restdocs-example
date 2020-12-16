@@ -38,7 +38,7 @@ public class BeerDto {
     private String beerName;
 
     @NotNull
-    private io.github.computeruser88.restdocsexample.web.model.BeerStyleEnum beerStyle;
+    private BeerStyleEnum beerStyle;
 
     @Positive
     @NotNull
